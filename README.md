@@ -17,7 +17,12 @@ cd CRUD
 npm install
 npm run start
 
+// verificar contenedores
+docker ps
+
 ```
+
+
 Kafka UI
 http://localhost:9100
 

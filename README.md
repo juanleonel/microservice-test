@@ -11,6 +11,8 @@ docker-compose up -d
 cd transaction-service
 npm install
 docker-compose up -d
+npm run start:dev
 
 cd CRUD
 npm install
+npm run start

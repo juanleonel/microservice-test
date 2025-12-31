@@ -1,4 +1,4 @@
-import { IsString, IsOptional, IsEnum, IsNotEmpty, IsUUID } from 'class-validator'
+import { IsString, IsOptional, IsNotEmpty, IsUUID } from 'class-validator'
 
 export enum Status {
   CREATED = 'CREATED',
@@ -7,10 +7,6 @@ export enum Status {
 }
 
 export class CreateTransactionDto {
-  // @IsNotEmpty()
-  // @IsEnum(Status)
-  // status: Status;
-
   @IsUUID()
   @IsNotEmpty()
   accountId: string;

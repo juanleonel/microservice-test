@@ -5,10 +5,12 @@ Microservicio en **NestJS** y nodejs usando express, que produce eventos de tran
 ## 🚀 Instalación
 
 ```bash
-git clone [https://github.com/juanleonel/transaction-test](https://github.com/juanleonel/microservice-test).git
+git clone https://github.com/juanleonel/microservice-test.git
+docker comspose up -d
+
 cd transaction-service
 npm install
+docker comspose up -d
 
 cd CRUD
 npm install
-
